@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import UsersTable from './Components/UsersTable';
@@ -8,7 +7,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<UsersTable />} />
-        <Route path="/user/:id" element={<UserDetails />} />
+        <Route path="/users/:id" element={<UserDetails />} />
       </Routes>
     </Router>
   );
